@@ -1,16 +1,101 @@
-# React + Vite
+# Heap Sort Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An advanced and interactive web application designed to demonstrate the working mechanism of the Heap Sort algorithm through smooth animations, real-time visualization, and dynamic user interaction.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Heap Sort Visualizer helps users understand how the Heap Sort algorithm operates internally by visually representing array transformations, heap formation, and sorting execution step-by-step. The project focuses on both educational value and modern UI experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Real-Time Heap Sort Visualization
+* Dynamic Array Generation
+* Smooth Sorting Animations
+* Interactive User Interface
+* Fast and Responsive Performance
+* Frontend & Backend Integration
+* Clean and Structured Codebase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+### Frontend
+
+* React.js
+* Vite
+* CSS3
+
+### Backend
+
+* Node.js
+* Express.js
+
+---
+
+## Project Structure
+
+```text
+Heap-Sort-Visualizer
+│
+├── src
+├── public
+├── Backend
+├── assets
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## Installation & Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/heap-sort-visualizer.git
+```
+
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd Backend
+npm install
+node server.js
+```
+
+---
+
+## Future Enhancements
+
+* Adjustable Visualization Speed
+* Performance Analysis Metrics
+* Multiple Sorting Algorithms
+* Dark / Light Theme Support
+* Enhanced UI/UX Animations
+* Algorithm Complexity Comparison
+
+---
+
+## Educational Purpose
+
+This project is developed to simplify the understanding of Heap Sort by transforming theoretical concepts into practical visual demonstrations, making learning easier for students and beginners.
+
+---
+
+## Author
+
+### Hafiz Muhammad Deen
+
+Computer Science Student | Frontend Developer
+
+Passionate about building modern web applications, algorithm visualizers, and interactive software solutions.
